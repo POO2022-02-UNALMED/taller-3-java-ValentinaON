@@ -85,13 +85,13 @@ public class TV {
 	}
 	
 	public void canalUp() {
-		if(this.canal > 0 && this.canal <= 120 && this.estado == true) {
+		if(this.canal < 120 && this.estado == true) {
 			this.canal++;
 		}
 	}
 	
 	public void canalDown() {
-		if(this.canal > 0 && this.canal <= 120 && this.estado == true) {
+		if(this.canal > 1 && this.estado == true) {
 			this.canal--;
 		}
 	}
