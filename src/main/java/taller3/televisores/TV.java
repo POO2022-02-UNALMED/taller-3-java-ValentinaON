@@ -85,25 +85,25 @@ public class TV {
 	}
 	
 	public void canalUp() {
-		if(this.canal < 120 && this.estado == true) {
+		if(this.canal < 120 && estado == true) {
 			this.canal++;
 		}
 	}
 	
 	public void canalDown() {
-		if(this.canal > 1 && this.estado == true) {
+		if(this.canal > 1 && estado == true) {
 			this.canal--;
 		}
 	}
 	
 	public void volumenUp() {
-		if(this.volumen < 7 && this.estado == true) {
+		if(this.volumen < 7 && estado == true) {
 			this.volumen++;
 		}
 	}
 	
 	public void volumenDown() {
-		if(this.volumen >= 1 && this.estado == true) {
+		if(this.volumen >= 1 && estado == true) {
 			this.volumen--;
 		}
 	}
